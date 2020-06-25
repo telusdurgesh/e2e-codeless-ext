@@ -1,0 +1,55 @@
+@import "variables";
+@import "buttons";
+@import "typography";
+@import "transitions";
+@import "animations";
+@import "github-gist.css";
+@import "mixins";
+
+//reset
+
+html {
+  max-height: 500px;
+}
+
+body {
+  margin: 0;
+  font-size: 100%;
+  color: $gray-dark;
+  width: 700px;
+  max-height: 500px;
+  resize: both;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $brand-primary;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+}
+.recorder input.testcase-title {
+  min-width: 200px;
+  width: 40%;
+  padding: 3px 10px;
+  height: 30px;
+  position: relative;
+  left: 0;
+  outline: none;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-size: 13px;
+  border-radius: 4px;
+  font-weight: 500;
+  display: flex;
+}
+.error {
+  border:2px solid red;
+}
