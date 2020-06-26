@@ -3,6 +3,5 @@ node_modules
 .idea
 build
 dist
-dist-zip
 *.pem
 *.crx
